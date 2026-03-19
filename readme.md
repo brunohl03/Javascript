@@ -31,14 +31,14 @@ git init
 git add .  
 git commit -m "início do projeto"  
 git branch -M main  
-git remote add origin <url-do-repositorio>  
+git remote add origin https://github.com/brunohl03/Javascript.git
 git push -u origin main  
 
 ```
 
 # Repositório no GitHub
 
-O código está hospedado no GitHub para facilitar o acesso, compartilhamento e versionamento do projeto.
+O código está hospedado no GitHub para facilitar o acesso, compartilhamento e versionamento do projeto. (https://github.com/brunohl03/Javascript.git)
 
 # Análise de Requisitos
 
