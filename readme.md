@@ -10,10 +10,14 @@ Este repositório contém o início do desenvolvimento de um projeto prático re
 
 # Estrutura inicial do projeto
 
+```bash
+
 /projeto-js-senai  
 │-- src/  
 │-- README.md  
 │-- .gitignore  
+
+```
 
 # Versionamento com Git
 
@@ -21,14 +25,16 @@ Este projeto utiliza o Git para controle de versão, permitindo o registro de al
 
 Comandos básicos utilizados:
 
---bash
+```bash
+
 git init  
 git add .  
 git commit -m "início do projeto"  
 git branch -M main  
 git remote add origin <url-do-repositorio>  
 git push -u origin main  
---bash
+
+```
 
 # Repositório no GitHub
 
