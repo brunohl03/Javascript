@@ -13,7 +13,6 @@ Este repositório contém o início do desenvolvimento de um projeto prático re
 ```bash
 
 /projeto-js-senai  
-│-- src/  
 │-- README.md  
 │-- .gitignore  
 
