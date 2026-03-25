@@ -2,22 +2,62 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de chamados</title>
-</head>
+    <title>Sistema de Chamados</title>
+
 <body>
-    <header>
-        <!-- cabeçalho -->
-        <h1>Sistema de chamados SENAI</h1>
-    </header>
 
-    <main>
-        <section>
-            <h2>Abrir chamado</h2>
-        </section>
-    </main>
+    <div class="dashboard">
+        <div class="widget" style="border-color: #f1c40f;"><h3>Abertos</h3><p>12</p></div>
+        <div class="widget" style="border-color: #3498db;"><h3>Em Andamento</h3><p>05</p></div>
+        <div class="widget" style="border-color: #2ecc71;"><h3>Resolvidos</h3><p>84</p></div>
+        <div class="widget" style="border-color: #e74c3c;"><h3>Cancelados</h3><p>03</p></div>
+    </div>
 
-    <footer>
-        <p>2025 SENAI</p>
-    </footer>
+    <div class="container-form">
+        <form>
+            <div class="row">
+                <div class="field-group">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Seu nome completo">
+                </div>
+                <div class="field-group">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="exemplo@empresa.com">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field-group">
+                    <label>Categoria</label>
+                    <select>
+                        <option value="suporte">Suporte Técnico</option>
+                        <option value="equipamento">Solicitação de Equipamento</option>
+                        <option value="acesso">Acesso a Sistema</option>
+                        <option value="administrativo">Dúvidas Administrativas</option>
+                    </select>
+                </div>
+                <div class="field-group">
+                    <label>Departamento</label>
+                    <div class="radio-group">
+                        <div class="radio-item"><input type="radio" name="dept" value="ti"> TI</div>
+                        <div class="radio-item"><input type="radio" name="dept" value="rh"> RH</div>
+                        <div class="radio-item"><input type="radio" name="dept" value="financeiro"> Financeiro</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field-group">
+                <label>Descrição do Problema</label>
+                <textarea placeholder="Descreva detalhadamente sua solicitação..."></textarea>
+                <div class="confirm-area">
+                    <span>As informações estão corretas?</span>
+                    <button type="button" class="btn-confirm">Confirmar Dados</button>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">ENVIAR CHAMADO</button>
+        </form>
+    </div>
+
 </body>
 </html>
